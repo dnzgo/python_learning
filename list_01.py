@@ -48,3 +48,48 @@ motorcycles.remove("kuba")  # remove an element at unknown index by giving value
 print(motorcycles)
 
 
+#Exercise
+guestList = ['deniz', 'mahir', 'mustafa']
+
+print(guestList[0] + ', come to dinner!')
+print(guestList[1] + ', come to dinner!')
+print(guestList[2] + ', come to dinner!')
+
+print(guestList[1] + ' can not participate to dinner')
+guestList[1] = 'Ibrahim'
+print(guestList[0] + ', come to dinner!')
+print(guestList[1] + ', come to dinner!')
+print(guestList[2] + ', come to dinner!')
+
+print('I found a bigger table for dinner, more people can participate!!')
+guestList.insert(0, 'Serkan')
+guestList.insert(2, 'Cemal')
+guestList.append('Alp')
+
+print(guestList[0] + ', come to dinner!')
+print(guestList[1] + ', come to dinner!')
+print(guestList[2] + ', come to dinner!')
+print(guestList[3] + ', come to dinner!')
+print(guestList[4] + ', come to dinner!')
+print(guestList[5] + ', come to dinner!')
+
+print('I can inveti only two people because table wont come in time')
+
+cantInvite = guestList.pop()
+print(' I am sorry I can not invite u to dinner, ' + cantInvite)
+cantInvite = guestList.pop()
+print(' I am sorry I can not invite u to dinner, ' + cantInvite)
+cantInvite = guestList.pop()
+print(' I am sorry I can not invite u to dinner, ' + cantInvite)
+cantInvite = guestList.pop()
+print(' I am sorry I can not invite u to dinner, ' + cantInvite)
+
+print(' U are still invited, ' + guestList[0])
+print(' U are still invited, ' + guestList[1])
+
+del guestList[1]
+del guestList[0]
+
+print(guestList)
+
+
