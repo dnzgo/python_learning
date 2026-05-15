@@ -44,3 +44,19 @@ for player in players[:3]: # looping through slice
 # creating a copy of a list
 new_players = players[:] # creates a new list when we change players list does not effect the new_players list. but if we write new_players = players this does not create a new list, instead two varible points to same list
 
+
+# exercise
+print(numbers[:3]) # first 3 items
+print(numbers[1:3]) # middle items
+print(numbers[-2:]) # last 2 items
+
+friends_pizzas = pizzas[:]
+pizzas.append('margarita')
+friends_pizzas.append('salami')
+
+print('my favorite pizzas are:')
+for pizza in pizzas:
+    print(pizza)
+print('my friends favorite pizzas are:')
+for pizza in friends_pizzas:
+    print(pizza)
