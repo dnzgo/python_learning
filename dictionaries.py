@@ -46,3 +46,16 @@ favorite_languages = {
 }
 for language in set(favorite_languages.values()): # set(), python identifies the unique items in the list and builds a set from those items
     print(language.title())
+
+aliens = []
+for i in range(30):
+    new_alien = {'color' : 'green', 'point' : 5, 'speed' : 'slow'}
+    aliens.append(new_alien)
+
+for alien in aliens[:3]:
+    if alien['color'] == 'green':
+        alien['color'] = 'yellow'
+        alien['point'] = 10
+        alien['speed'] = 'medium'
+
+print(aliens[:5])
