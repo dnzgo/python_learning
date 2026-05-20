@@ -2,7 +2,6 @@ import random
 
 player_data = {'money' : 100, 'energy' : 0, 'apples' : 0, 'swords' : 0}
 
-quit = 'quit'
 while True:
     print(player_data)
     print('eat apple/ buy apples/ buy sword / work / fight')
