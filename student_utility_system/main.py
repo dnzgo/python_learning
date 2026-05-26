@@ -15,4 +15,3 @@ min_score = math_tools.find_lowest(scores)
 max_score = math_tools.find_highest(scores)
 print('average score: ' + str(avg) + '\nmin score: ' + str(min_score) + '\nmax_score: ' + str(max_score))
 
-
